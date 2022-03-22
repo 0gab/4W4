@@ -8,7 +8,7 @@
     <p><?php echo wp_trim_words(get_the_content(), 20, "...>"); ?></p>
     <hr>
     <?php endwhile; ?>
-    <?php else : ?><p>Cette recherche n'a pas retournée de résultat</p>
+    <?php else : ?><p>Cette recherche est erronnée. Veuillez réessayer.</p>
     <?php endif; ?>
 </main>
 <?php get_footer(); ?>
