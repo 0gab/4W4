@@ -1,7 +1,4 @@
 <?php
-/**
- * L'entête « header » de chacune des pages du site
- */
 ?>
 <!DOCTYPE html>
 <html lang="en">
