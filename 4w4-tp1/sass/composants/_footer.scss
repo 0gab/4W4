@@ -1,0 +1,63 @@
+.site__footer {
+    font-family: $font__titre;
+    background-color: $color__background-footer;
+    padding: 1em;
+
+    & .contenu__footer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &__menu{
+      width: 33%;
+
+      &__ul{
+          display : flex;
+          list-style-type: none;
+          flex-direction: column;
+          justify-content: center;
+          .item__menu {
+            a{
+              display : flex;
+              align-items: center;
+              padding : 3px;
+              margin: 5px;
+              width: 50%;
+              box-sizing: border-box;
+              transition: all 0.2s ease-in;
+              &:hover{
+                border-radius:2px;
+                transform: translateY(-5px);
+                box-shadow:0px 5px 20px -3px hsl(0, 0%, 0%); $color__link__footer-border;
+              }
+
+                svg {
+                  color: $color__link__footer;
+                }
+           
+              &:hover {
+                svg {
+                  color: $color__link__footer-hover;
+                }
+              }
+            }
+          }    
+       }
+    }
+
+    & .footer_barreRecherche{
+      margin-left: auto;
+      margin-right: auto;
+      & h3{
+        color: $color__font-header;
+      }
+    }
+  }
+
+.footer__titre,
+.footer__presentation,
+.footer__author {
+  color: $color__font-footer;
+  text-align: center;
+}
