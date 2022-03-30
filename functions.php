@@ -14,6 +14,7 @@ function cidw_4w4_register_nav_menu(){
         'menu_principal' => __( 'Menu principal', 'cidw_4w4' ),
         'menu_footer'  => __( 'Menu footer', 'cidw_4w4' ),
         'menu_lien_externe'  => __( 'Menu lien externe', 'cidw_4w4' ),
+        'menu_accueil' => __( 'Menu accueil', 'cidw_4w4')
     ) );
 }
 add_action( 'after_setup_theme', 'cidw_4w4_register_nav_menu', 0 );
@@ -43,6 +44,19 @@ function cidw_4w4_add_theme_support()
 }
  
 add_action( 'after_setup_theme', 'cidw_4w4_add_theme_support' );
+
+/*---------------------------------------------------------- Ajout de la description en dessous des menus */
+
+
+function prefix_nav_description( $item_output, $item,  $args ) {
+    if ( !empty( $item->description ) ) {
+        $item_output = str_replace( $args->link_after . '</a>',
+            $args->link_after .'<hr><span class="menu-item-description">' . $item->description . '</span>' .  '</a>',
+            $item_output );
+    }
+    return $item_output;
+}
+add_filter( 'walker_nav_menu_start_el', 'prefix_nav_description', 10, 3 );
 
 
 /*---------------------------------------------------------- Enregistrement des sidebar */
