@@ -1,12 +1,13 @@
 .site__main {
-    box-shadow: box-shadow: 0px 5px 20px -3px #000000;
-    padding: 10px 15px;
+    
+  
     background-color: $color__background-main;
     border-radius: 5px;
-
+    box-shadow: rgb(57, 68, 62) 1px -1px 10px;
 }
 
-.formation {
+.formation {  
+    padding: 10px 15px;
     display: flex;
     flex-direction: column;
 
@@ -16,7 +17,11 @@
         margin: 10px 0px;
         font-family: $font__titre;
     }
-
+    &__liste {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
     &__cours {
         background-color: $color__background-cours;
         box-shadow: rgb(57, 64, 68) 1px -1px 10px;
@@ -32,11 +37,6 @@
             width: 30%;
         }
         padding: 10px;
-    }
-
-    &__liste {
-        display: flex;
-        flex-wrap: wrap;
     }
 
 

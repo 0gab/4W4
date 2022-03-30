@@ -1,8 +1,8 @@
 /*
-theme name: 2022-4w4 : TP1 Gabriel Devoyau-Lanctôt
-Author: Gabriel Devoyau-Lanctôt
-Author URI: https://github.com/0gab/4W4-TP1
-Description: Thème Wordpress du TP1 du cours web 4W4
+theme name: groupe-1 eddy martin
+Author: Eddy martin
+Author URI: https://github.com/eddytuto
+Description: Ce thème servira de base de développement pour l'ensemble du cours 4W4. Chacune des étapes de développement se retrouvera sur gitHub à l'adresse: https://github.com/eddytuto/2022-4w4
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -30,19 +30,18 @@ INITIALISATION
 /* ---------------------------------------------------------
 COMPOSANTES
 --------------------------------------------------------- */
-@import "composants/contenu";
-@import "composants/header";
-@import "composants/navigation";
-@import "composants/footer";
-@import "composants/cours";
-@import "composants/recherche";
-
-/* ---------------------------------------------------------
-LAYOUT
---------------------------------------------------------- */
-@import "layout/layout";
-
+@import "composantes/contenu";
+@import "composantes/header";
+@import "composantes/navigation";
+@import "composantes/footer";
+@import "composantes/erreur_404";
+@import "composantes/recherche";
+@import "composantes/single-post";
 /* ---------------------------------------------------------
 ANIMATION
 --------------------------------------------------------- */
 @import "animation/entete";
+/* ---------------------------------------------------------
+LAYOUT
+--------------------------------------------------------- */
+@import "layout/layout";
