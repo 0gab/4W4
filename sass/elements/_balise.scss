@@ -1,0 +1,14 @@
+h1, h2{
+  font-family: $font__main;
+}
+h3, h4{
+  font-family: $police__h3;
+}
+h5, h6{
+  font-family: $police__h5;
+}
+
+p{
+  font-family: $police__p;
+  font-size: clamp(1rem, 3vw, 2rem);
+}
