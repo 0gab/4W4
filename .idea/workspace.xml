@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79c34a2f-5b15-4754-852e-482fd957a5fb" name="Changes" comment="Ajout des clamp() pour les fontsizes des différentes balises">
+    <list default="true" id="79c34a2f-5b15-4754-852e-482fd957a5fb" name="Changes" comment="Ajout de la fonction gérant les descriptions dans le menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648670284196</updated>
-      <workItem from="1648670285714" duration="5363000" />
+      <workItem from="1648670285714" duration="5715000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustement du fichier style.css">
       <created>1648671250513</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648675339283</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajout de la fonction gérant les descriptions dans le menu">
+      <created>1648677046514</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648677046514</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +125,7 @@
     <MESSAGE value="Ajustement du fichier style.css" />
     <MESSAGE value="Ajout des polices pour les headings h1 @ h6" />
     <MESSAGE value="Ajout des clamp() pour les fontsizes des différentes balises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout des clamp() pour les fontsizes des différentes balises" />
+    <MESSAGE value="Ajout de la fonction gérant les descriptions dans le menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la fonction gérant les descriptions dans le menu" />
   </component>
 </project>
